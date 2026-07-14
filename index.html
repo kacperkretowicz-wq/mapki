@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/mapyorlen/orlen_logo.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="noindex, nofollow" />
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Orlen X TelForceOne - CRM Handlowca" />
+    <meta property="og:description" content="Aplikacja SFA do zarządzania wizytami i audytami stacji paliw." />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="/mapyorlen/orlen_logo.svg" />
+    
+    <title>Orlen X TelForceOne - CRM Handlowca</title>
+    <!-- Google Fonts - Outfit -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- FontAwesome for Premium Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script type="module" crossorigin src="/mapyorlen/assets/index-D7rxsggo.js"></script>
+    <link rel="modulepreload" crossorigin href="/mapyorlen/assets/rolldown-runtime-Bh1tDfsg.js">
+    <link rel="modulepreload" crossorigin href="/mapyorlen/assets/react-vendor-CnQ8cts2.js">
+    <link rel="modulepreload" crossorigin href="/mapyorlen/assets/leaflet-vendor-DL2TDfRT.js">
+    <link rel="stylesheet" crossorigin href="/mapyorlen/assets/leaflet-vendor-CqkT7K9X.css">
+    <link rel="stylesheet" crossorigin href="/mapyorlen/assets/index-DupQ49LZ.css">
+  <link rel="manifest" href="/mapyorlen/manifest.webmanifest"></head>
+  <body>
+    <div id="root"></div>
+    
+    <!-- SVG Gooey Filter for blending salesman territories -->
+    <svg style="visibility: hidden; position: absolute;" width="0" height="0" xmlns="http://www.w3.org/2000/svg" version="1.1">
+        <defs>
+            <filter id="gooey-territory">
+                <feGaussianBlur in="SourceGraphic" stdDeviation="8" result="blur" />
+                <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9" result="goo" />
+                <feComposite in="SourceGraphic" in2="goo" operator="atop" />
+            </filter>
+        </defs>
+    </svg>
+  </body>
+</html>
